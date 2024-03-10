@@ -1,0 +1,131 @@
+//Шаблоны
+%headline{
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+
+%article{
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+
+.wrapper {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    height: 323px;
+    display: flex;
+    flex-direction: row;
+    background-color:#445162;
+    justify-content: space-between;
+}
+.header__1column {
+    margin-top: 50/1280*100%;
+    margin-bottom: 50/1280*100%;
+    margin-left: 86/1280*100%;
+    margin-right:86/1280*100%;
+}
+.header__1column__hi {
+    font-family: Arial;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+    color: #ffffff;
+}
+.header__check {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+    color: #ffffff;
+}
+.header__check__paragraph {
+}
+.header__2column {
+    margin: 50/1280*100%;
+
+}
+.fls__image {
+}
+.whatis {
+}
+.whatis__1column {
+}
+.whatis__2column {
+}
+.whatis__2column__headline {
+}
+.whatis__2column__article1 {
+}
+.article {
+    @extend %article
+}
+.flexcontainers {
+}
+.flexcontainers__headline {
+}
+.headline {
+    @extend %headline
+}
+.flexcontainers__oddColumn {
+}
+.flexcontainers__oddColumn__item {
+}
+.flexcontainers__evenColumn {
+}
+.flexcontainers__evenColumn__paragraph {
+}
+.flexcontainers__evenColumn__localHeadline {
+}
+.localheadline {
+}
+.flexcontainers__evenColumn__article {
+}
+.vAlign {
+}
+.vAlign__column {
+}
+.vAlign__column__beGlad {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.vAlign__column__item {
+    font-family: Arial;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445162;
+}
+.vAlign__column__article {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.vAlign__column__button {
+}
+.sign {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #445162;
+}
